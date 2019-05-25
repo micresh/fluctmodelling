@@ -37,6 +37,7 @@ private slots:
     void timer_update();
     void on_stop_btn_clicked();
     void on_start_btn_clicked();
+    void on_actionLW1_triggered();
 };
 
 #endif // MAINWINDOW_H
