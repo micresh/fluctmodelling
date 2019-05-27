@@ -47,5 +47,8 @@ void MainWindow::on_start_btn_clicked()
 
 void MainWindow::on_actionLW1_triggered()
 {
+    QWidget *widget = new LW1Form(ui->mdiArea);
+    ui->mdiArea->addSubWindow(widget);
+    widget->show();
 
 }
